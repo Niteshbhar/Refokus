@@ -17,7 +17,10 @@ function Navbar() {
                   {ele.length === 0 ? (
                     <span className="w-[2px] h-5 bg-zinc-700"></span>
                   ) : (
-                    <a className="text-white flex gap-1 items-center" href="#">
+                    <a
+                      className="text-zinc-100 flex gap-1 items-center"
+                      href="#"
+                    >
                       {index == 1 && (
                         <span
                           style={{ boxShadow: "0 0 0.45em  #00FF19" }}
