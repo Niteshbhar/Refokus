@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Products from "./components/products";
 import Stripes from "./components/stripes";
 import Work from "./components/work";
 
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Work/>
         <Stripes/>
+        <Products/>
       </div>
     </>
   );
