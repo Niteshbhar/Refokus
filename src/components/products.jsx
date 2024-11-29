@@ -16,7 +16,7 @@ function Products() {
         "lorem ipsum dolor sit amet, consectetur adip occ occurence velit sed diam non pro id pro gravida vel aug commodo just",
       live: true,
       case: false,
-    }, 
+    },
     {
       title: "YIR 2022",
       description:
@@ -33,11 +33,12 @@ function Products() {
     },
   ];
   return (
-    <>
+    <div className="mt-28">
+      {" "}
       {products.map((elem, index) => (
-        <Product data={elem} key={index } />
+        <Product data={elem} key={index} />
       ))}
-    </>
+    </div>
   );
 }
 
