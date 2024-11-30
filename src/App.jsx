@@ -1,7 +1,9 @@
+import Marquees from "./components/marquees";
 import Navbar from "./components/Navbar";
 import Products from "./components/products";
 import Stripes from "./components/stripes";
 import Work from "./components/work";
+import "./assets/style.css";
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Work/>
         <Stripes/>
         <Products/>
+        <Marquees/>
       </div>
     </>
   );
