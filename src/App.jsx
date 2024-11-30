@@ -5,17 +5,19 @@ import Stripes from "./components/stripes";
 import Work from "./components/work";
 import "./assets/style.css";
 import Cards from "./components/cards";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
       <div className="w-full h-100 bg-zinc-900">
         <Navbar />
-        <Work/>
-        <Stripes/>
-        <Products/>
-        <Marquees/>
-        <Cards/>
+        <Work />
+        <Stripes />
+        <Products />
+        <Marquees />
+        <Cards />
+        <Footer />
       </div>
     </>
   );

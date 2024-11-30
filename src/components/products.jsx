@@ -33,12 +33,13 @@ function Products() {
     },
   ];
   return (
-    <div className="mt-28">
+    <div className="w-100"><div className="mt-28 container mx-auto px-10">
       {" "}
       {products.map((elem, index) => (
         <Product data={elem} key={index} />
       ))}
-    </div>
+    </div></div>
+    
   );
 }
 
