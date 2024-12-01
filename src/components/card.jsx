@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-function Card({ width, start, para,hover="none" }) {
+function Card({ width, start, para,hover=""}) {
   return (
     <div className={` p-5 rounded-xl shadow shadow-zinc-400 bg-zinc-800 min-h-[25rem] hover:${hover} flex flex-col justify-between text-zinc-100 ${width}`}>
       <div className="w-full">
