@@ -35,9 +35,9 @@ function Marquees() {
       ]
   ];
   return (
-    <div className="py-32 ">
+    <div className="py-32 w-full  overflow-hidden">
       {images.map((elem, index) => (
-        <Marquee urls={elem} />
+        <Marquee urls={elem} cName={index===0?"marqueeAnimate1":"marqueeAnimate2"}/>
       ))}
     </div>
   );

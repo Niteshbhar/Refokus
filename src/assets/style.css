@@ -1,1 +1,33 @@
-  
+  .marqueeAnimate1 {
+      animation-name: anima1;
+
+
+      animation: anima1 15s linear infinite;
+  }
+
+  @keyframes anima1 {
+      0% {
+          transform: translateX(0%);
+      }
+
+      100% {
+          transform: translateX(-100%);
+      }
+  }
+
+  .marqueeAnimate2 {
+      animation-name: anima2;
+
+      animation: anima2 15s linear infinite;
+
+  }
+
+  @keyframes anima2 {
+      0% {
+          transform: translateX(-100%);
+      }
+
+      100% {
+          transform: translateX(0%);
+      }
+  }
