@@ -6,8 +6,10 @@ import Work from "./components/work";
 import "./assets/style.css";
 import Cards from "./components/cards";
 import Footer from "./components/footer";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
       <div className="w-full h-100 bg-zinc-900">
