@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Card({ width, start, para,hover=""}) {
   return (
-    <div className={` p-5 rounded-xl shadow shadow-zinc-400 bg-zinc-800 min-h-[25rem] hover:${hover} flex flex-col justify-between text-zinc-100 ${width}`}>
+    <div style={{transition:"0.3s linear" }} className={`p-5 rounded-xl shadow shadow-zinc-400 bg-zinc-800 min-h-[25rem] hover:${hover} flex flex-col justify-between text-zinc-100 ${width} hover:p-[25px]`}>
       <div className="w-full">
         {" "}
         <div className="w-full flex justify-between items-center">
@@ -26,7 +26,7 @@ function Card({ width, start, para,hover=""}) {
         )}
         {para && (
           <p className="text-sm text-zinc-500 font-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            Lorem ipsum dolor sit amet consectetur .
           </p>
         )}
       </div>
